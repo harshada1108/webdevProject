@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(1turn, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('https://i1.pickpik.com/photos/781/453/305/book-hands-reading-man-preview.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 5% 10%;
+    margin-bottom: 40px;
+   height: 40vh;
+}
+
+.head h3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #f4e04d;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.head p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.horizontalscroll {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 22%;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.head .booktitle{
+
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #f4e04d;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.horizontalscroll::-webkit-scrollbar {
+    height: 8px;
+    
+}
+
+.horizontalscroll::-webkit-scrollbar-track {
+    background: #444;
+}
+
+.horizontalscroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.horizontalscroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.booktitle {
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top:100px;
+}
+
+.bookelement {
+    background-color: #333;
+   
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.bookelement img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.bookelement p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.bookelement a{
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    color: rgb(223, 212, 131);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpapers.com/images/featured/hogwarts-2h5rh3z2vkebpcvf.jpg') center/cover no-repeat;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.paralinks {
+    width: 50%;
+    margin-right: 20px;
+    color: #f8f8f8;
+}
+
+.paralinks h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+.paralinks p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.linkbutton {
+    display: flex;
+    gap: 15px;
+}
+
+.linkbutton button {
+    font-size: 1.2rem;
+    background-color: #6A5ACD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.linkbutton button:hover {
+    background-color: #483D8B;
+}
+
+.maincontent img {
+    width: 280px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
